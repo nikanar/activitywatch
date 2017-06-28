@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/ActivityWatch/aw-watcher-afk.git
+	branch = master
+	commit = df661a2b8a555f244a30c5e6f75c668e0a82fea6
+	parent = ccf4b5e7b0e45524cf66d4ad32ea101e56e45256
+	cmdver = 0.3.1
