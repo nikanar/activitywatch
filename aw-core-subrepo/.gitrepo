@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/ActivityWatch/aw-core.git
+	branch = master
+	commit = c1beac210299ab936b990a7aee993bc633ee2556
+	parent = b803c8e88cb44827567477642170bddbbd7c8b26
+	cmdver = 0.3.1

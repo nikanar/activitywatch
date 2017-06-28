@@ -1,0 +1,25 @@
+
+language: python
+python:
+# - "3.3"
+# - "3.4"
+ - "3.5"
+ - "3.6"
+
+services:
+ - mongodb
+
+before_install:
+ - "pip install pytest pytest-cov"
+ - "pip install mypy"
+ - "pip install pymongo"
+
+install:
+ - "make build"
+
+script:
+ - "make test"
+ - "make typecheck"
+
+after_success:
+ - "bash <(curl -s https://codecov.io/bash)"
