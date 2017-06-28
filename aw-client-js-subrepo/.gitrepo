@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/ActivityWatch/aw-client-js.git
+	branch = master
+	commit = a981f607531a24b756cca697b03bd322a444ceec
+	parent = 90ff72cd7a0793d6e1f21cf715829bc62615be3e
+	cmdver = 0.3.1
