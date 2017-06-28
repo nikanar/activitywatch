@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/ActivityWatch/aw-qt.git
+	branch = master
+	commit = a8ac18ac18fcbd150048834a6a02b193881f59c9
+	parent = eeabe1e2e2feaa5747b6175bac9ee102aaf7fd0d
+	cmdver = 0.3.1
