@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "ActivityWatch Web Watcher",
+  "description": "This extension logs the current tab and your browser activity to ActivityWatch.",
+  "version": "0.1",
+  "icons": {
+    "128": "media/logo/logo.png"
+  },
+
+  "browser_action": {
+    "default_icon": "media/logo/logo.png",
+    "default_popup": "app/popup.html"
+  },
+
+  "background": {
+    "scripts": [
+        "app/client.js",
+        "app/eventPage.js"
+    ],
+    "persistent": false
+  },
+
+  "permissions": [
+    "tabs",
+    "alarms",
+    "activeTab",
+    "http://127.0.0.1:5600/",
+    "http://127.0.0.1:5666/"
+  ]
+}
