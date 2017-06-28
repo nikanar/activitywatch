@@ -1,0 +1,21 @@
+
+language: python
+python:
+ - "3.5"
+ - "3.6"
+ - "nightly"
+
+matrix:
+  allow_failures:
+    - python: "nightly"
+
+before_install:
+ - "pip install mypy"
+
+install:
+ - "make build"
+
+script:
+ - "python3 -c 'import aw_client'"
+ - "mypy aw_client; echo 'Not a failing step'"
+
